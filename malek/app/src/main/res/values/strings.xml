@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Malek Malek</string>
+
+    //home page stirngs
+    //bottom nav
+    <string name="bottom_nav_home">Home</string>
+    <string name="bottom_nav_favourite_string">Favourite</string>
+    <string name="bottom_nav_order_history_string">Order History</string>
+    <string name="bottom_nav_total_item_string">Total Item</string>
+    <string name="p_problem">রোগীর সমস্যাঃ</string>
+    <string name="p_problem_titel">এই ধরেন ভাল লাগে ঘুরতে</string>
+    <string name="blood_qty">রক্তের পরিমাণঃ</string>
+    <string name="blood_qty_titel">০৫ ব্যাগ</string>
+    <string name="blood_group">রক্তের গ্রুপঃ</string>
+    <string name="donation_time">রক্তদানের সময়ঃ</string>
+    <string name="donation_time_titel">সকাল ১০টা</string>
+
+
+</resources>

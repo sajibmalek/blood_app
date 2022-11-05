@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:backgroundTint="@color/activity_back_color"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <include layout="@layout/no_data_layout"/>
+                <include layout="@layout/no_internet_layout"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_above="@id/cart_bottom_layout"
+                        android:background="@color/activity_back_color"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </androidx.recyclerview.widget.RecyclerView>
+                    </LinearLayout>
+                    <androidx.cardview.widget.CardView
+                        android:layout_margin="10dp"
+                        app:cardElevation="2dp"
+                        app:cardCornerRadius="10dp"
+                        android:id="@+id/cart_bottom_layout"
+                        android:layout_alignParentBottom="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <RelativeLayout
+                            android:background="@color/activity_back_color"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingLeft="15dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:layout_centerVertical="true"
+                                android:textColor="@color/red_text_color"
+                                android:textSize="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <Button
+                                android:layout_margin="0dp"
+                                android:paddingRight="15dp"
+                                android:paddingLeft="15dp"
+                                android:textColor="@color/white"
+                                android:text="Send Request"
+                                android:layout_centerVertical="true"
+                                android:layout_alignParentRight="true"
+                                android:backgroundTint="@color/colorPrimary"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</RelativeLayout>
