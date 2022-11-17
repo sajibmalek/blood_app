@@ -18,11 +18,23 @@
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
+    <string name="next">Login</string>
     <string name="previous">Previous</string>
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="login_forget_pass_text">Forgot password</string>
+    <string name="login_bottom_registration_text">registration</string>
+    <string name="login_new_registration_btn_text">Registration</string>
+    <string name="login_password_hint_text">password</string>
+    <string name="login_number_hint">মোবাইল নাম্বার দিন</string>
+    <string name="login_head_text">head text log in</string>
+    <string name="user_name">আপনার নাম দিন</string>
+    <string name="weight">আপনার ওজন দিন</string>
+    <string name="blood_group_signup"> আপানর রক্তের গ্রুপ দিন</string>
+    <string name="age">আপনার ওজন দিন</string>
+    <string name="sex">" লিঙ্গ"</string>
+    <string name="address">আপনার ঠিকানা দিন</string>
 
 
 </resources>

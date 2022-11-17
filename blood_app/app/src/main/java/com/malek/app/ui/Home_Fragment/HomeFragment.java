@@ -21,7 +21,7 @@ public class HomeFragment extends Fragment  {
         homeViewModel =
                 new ViewModelProvider(this).get(HomeViewModel.class);
 
-        View root = inflater.inflate(R.layout.home_layout_child, container, false);
+        View root = inflater.inflate(R.layout.sign_up_layout, container, false);
 
 
         return root;
